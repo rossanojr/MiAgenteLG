@@ -20,6 +20,61 @@ git config --local credential.helper manager
 git config --local credential.useHttpPath true
 ```
 
+
+```bash
+pip cache purge
+```
+
+```bash
+python -m pip install --upgrade pip
+```
+
+
+```bash
+python -m pip install -U langgraph langchain langchain-openai "langchain[google-genai]"
+```
+
+
+```bash
+python -m pip install langchain-groq
+```
+
+
+```bash
+python -m pip install -qU langchain langchain-openrouter
+```
+
+
+```bash
+python -m pip install -qU langchain "langchain[google-genai]"
+```
+
+
+```bash
+python -m pip install -U langchain-groq
+```
+
+```bash
+python -m pip install -qU langgraph langchain langchain-openai langchain-google-genai langchain-groq langchain-openrouter langchain-ollama
+```
+
+
+
+```bash
+python -m pip install -U "langgraph-cli[inmem]"
+python -m pip install "langgraph-cli[inmem]"
+```
+
+
+```bash
+langgraph dev
+```
+
+```bash
+python -m pip install langchain-ollama
+```
+
+
 ### Env with UV
 
 ```sh
@@ -37,8 +92,8 @@ uv init
 uv venv
 
 # add dependencies
-uv add --pre langgraph langchain langchain-openai
-uv add --pre langchain-anthropic
+uv add langgraph langchain langchain-google-genai
+uv add langchain-groq langchain-openrouter langchain-ollama
 uv add "fastapi[standard]"
 
 # add dev dependencies
