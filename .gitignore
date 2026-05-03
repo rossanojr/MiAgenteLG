@@ -1,6 +1,9 @@
 ### Python ###
 __pycache__/
 
+# Entorno
+*.env
+
 # Distribution / packaging
 .Python
 build/
@@ -10,6 +13,9 @@ sdist/
 
 # Jupyter Notebook
 .ipynb_checkpoints
+
+# LangGraph
+.langgraph.api
 
 # Environments
 .envlg

@@ -1,3 +1,15 @@
+Metadata-Version: 2.4
+Name: miagentelg
+Version: 0.1.0
+Summary: Add your description here
+Requires-Python: >=3.14
+Description-Content-Type: text/markdown
+License-File: LICENSE.md
+Requires-Dist: langchain>=1.2.17
+Requires-Dist: langchain-google-genai>=4.2.2
+Requires-Dist: langgraph>=1.1.10
+Dynamic: license-file
+
 ### Configurar repositorio local para git
 <!--  -->
 ```bash
