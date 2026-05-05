@@ -1,0 +1,15 @@
+{
+    "models": [
+        {
+            "title": "Gemini 2.5 Pro",
+            "provider": "github-copilot",
+            "model": "gemini-2.5-pro"
+        }
+    ],
+    "tabAutocompleteModel": {
+        "title": "GPT-5.2 Codex",
+        "provider": "github-copilot",
+        "model": "gpt-5.2-codex"
+    },
+    "allowAnonymousTelemetry": false
+}
