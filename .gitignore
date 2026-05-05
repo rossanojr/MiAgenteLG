@@ -16,6 +16,7 @@ sdist/
 
 # LangGraph
 .langgraph.api
+.langgraph_api
 
 # Environments
 .envlg
